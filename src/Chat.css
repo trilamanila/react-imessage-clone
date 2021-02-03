@@ -1,7 +1,7 @@
 .chat {
     display: flex;
     flex-direction: column;
-    flex: 0.65;
+    flex: 0.65 1;
     height: 100vh;
     background-color: white;
 }
@@ -36,7 +36,19 @@
 }
 
 .chat__messages {
-    flex: 1;
+    flex: 1 1;
+    overflow: scroll;
+}
+
+/*Hide scrollbar from Chrome, Safari, and Opera */
+.chat__messages::-webkit-scrollbar {
+    display: none;
+}
+
+/*Hide scrollbar for IE, Edge, and Firefox */
+.chat__messages {
+    -ms-overflow-style: none; /*IE and Edge */
+    scrollbar-width: none; /*Firefox */
 }
 
 .chat__input > form > input {
