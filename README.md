@@ -18,7 +18,7 @@
 
 ## Description
 
-iMessage clone was created for learning purposes to better understand React and Redux. Google authentication login through Firebase with unique ID for avatar icon and messages. Backend and database stored with cloud Firestore for messages and chat groups. Real time live demo deployed with Firebase.Redux is the state management used for user login and logout and app chat ids and chat names. Material UI library was used for avatars and icons. Flexbox was used for styling compenents. 
+iMessage clone was created for learning purposes to better understand React and Redux. Google authentication login through Firebase with unique ID for avatar icon and messages. Backend and database stored with cloud Firestore for messages and chat groups. Real time live demo deployed with Firebase. Redux is the state management used for user login and logout and app chat ids and chat names. Material UI library was used for avatars and icons. Flexbox and BEM naming convention was used for styling compenents.
 
 #### Technologies
 
@@ -27,7 +27,6 @@ iMessage clone was created for learning purposes to better understand React and 
 - Firebase
 - CSS
 - HTML
-- Node
 
 #### Dependencies
 
@@ -64,22 +63,25 @@ const db = firebaseApp.firestore();
 const auth = firebase.auth();
 const provider = new firebase.auth.GoogleAuthProvider();
 ```
+
 [Back To The Top](#imessage-clone)
 
 ---
 
 ## References
+
 [Back To The Top](#imessage-clone)
 
 - Twitter - [@trilamanila](https://twitter.com/trilamanila)
 - Website - [Trilamanila](https://trilamanila.com)
+
 ---
 
 ## License
 
 MIT License
 
-Copyright (c) [2021] [Joncin Picol]
+Copyright (c) [2021][joncin picol]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
