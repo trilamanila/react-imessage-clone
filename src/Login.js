@@ -1,26 +1,25 @@
-import { Button } from "@material-ui/core"
-import React from 'react'
-import { auth, provider } from "./firebase"
-import './Login.css'
+import { Button } from "@material-ui/core";
+import React from "react";
+import { auth, provider } from "./firebase";
+import "./Login.css";
 
 function Login() {
-    const signIn = () => {
-        auth.signInWithPopup(provider).catch((error) => alert(error.message));
-    };
+  const signIn = () => {
+    auth.signInWithPopup(provider).catch(error => alert(error.message));
+  };
 
-    return (
-        <div className="login">
-            <div className="login__logo">
-                <img
-                 src="http://www.newdesignfile.com/postpic/2014/03/imessage-icon_27015.png"
-                 alt="imessage logo"
-                 />
-                 <h1>iMessage</h1>
-            </div>
+  return (
+    <div className="login">
+      <div className="login__logo">
+        <img
+          src="https://iphoneroot.com/wp-content/uploads/2016/06/imessage1-android-500x208.png"
+          alt="imessage logo"
+        />
+      </div>
 
-            <Button onClick={signIn}>Sign in</Button>
-        </div>
-    )
+      <Button onClick={signIn}>Sign in</Button>
+    </div>
+  );
 }
 
-export default Login
+export default Login;
