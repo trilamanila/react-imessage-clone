@@ -72,8 +72,7 @@ const provider = new firebase.auth.GoogleAuthProvider();
 
 [Back To The Top](#imessage-clone)
 
-- Twitter - [@trilamanila](https://twitter.com/trilamanila)
-- Website - [Trilamanila](https://trilamanila.com)
+- Website - [Joncin Picol](https://joncinpicol.com)
 
 ---
 
@@ -81,7 +80,7 @@ const provider = new firebase.auth.GoogleAuthProvider();
 
 MIT License
 
-Copyright (c) [2021][joncin picol]
+Copyright (c) [2022][joncin picol]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -107,7 +106,6 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@trilamanila](https://twitter.com/trilamanila)
-- Website - [Trilamanila](https://trilamanila.com)
+- Website - [Joncin Picol](https://joncinpicol.com)
 
 [Back To The Top](#imessage-clone)
